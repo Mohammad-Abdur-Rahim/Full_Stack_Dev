@@ -1,37 +1,19 @@
 body {
     margin: 0;
-    font-family: sans-serif;
 }
 
-.blog {
-    width: 45%;
-    background-color: #000;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-left: 50px;
-    padding-right: 50px;
-    margin: auto;
-    border-radius: 40px;
+.green {
+    width: 70%;
+    height: 450px;
+    background-color: green;
+    position: relative;
 }
 
-.blog h1 {
-    color: #fff;
-    margin: 0;
-    margin-bottom: 20px;
-}
-
-.blog p {
-    color: #fff;
-    margin: 0;
-}
-
-.blog img {
-    width: 50%;
-    margin-bottom: 20px;
-}
-
-.blog p {
-    font-size: 15px;
-    text-align: justify;
-    margin-bottom: 20px;
+.redbox {
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    position: absolute;
+    right: 0;
+    bottom: 0;
 }
