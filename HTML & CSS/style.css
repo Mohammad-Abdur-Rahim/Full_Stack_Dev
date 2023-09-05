@@ -2,106 +2,71 @@ body {
     margin: 0;
 }
 
-.header-area {
-    height: 80px;
+
+/* Main Menu */
+
+.menu {
+    background-color: #e74c3c;
+    font-family: arial;
+}
+
+ul {
+    margin: 0;
+    padding: 0; 
+    text-align: center;  
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+    position: relative;
+}
+
+ul li a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 15px 20px;
+    display: block;
+    font-size: 18px;
+    transition: 0.5s;
     
 }
 
-.logo-area {
-    width: 45%;
-    height: 80px;
-    background-color: #A349A4;
-    float: left;
+ul li:hover a {
+    background-color: #000;
+    color: #fff;
+   
 }
 
-.menu-area {
-    height: 80px;
-    background-color: #00A2E8;
-    width: 55%;
-    overflow: hidden;
+#active {
+    background-color: #000;
+    color: #fff;
 }
 
-/* Header area end here */
+/* 
+Submenu Design */
 
-.main-area {
-    height: 500px;
-    border: 1px solid #000;
-    background-color: #C8BFE7;
+ul ul li {
+    display: block;
+    width: 200px;
 }
 
-.left-sidebar {
-    height: 500px;
-    width: 30%;
-    background-color: #B5E61D;
-    float: left;
+ul ul {
+    background-color: goldenrod;
+    position: absolute;
+    top: 100%;
+    display: none;
 }
 
-.main-content {
-    height: 500px;
-    width: 70%;
-    overflow: hidden;
+ul li:hover > ul {
+    display: block;
 }
 
-.main-content-left {
-    height: 350px;
-    width: 30%;
-    background-color: #7092BE;
-    float: left;
+/* Third Menu Design */
+
+ul ul ul {
+    position: absolte;
+    left: 100%;
+    top: 0;
 }
-
-.main-content-right {
-    width: 70%;
-    height: 500px;
-    background-color: #FF7F27;
-    overflow: hidden;
-}
-
-.main-box {
-    margin-top: 100px;
-
-}
-
-.box1 {
-    width: 35%;
-    height: 300px;
-    background-color: #C8BFE7;
-    float: left;
-    margin: 0 10%;
-}
-
-.box2 {
-    width: 35%;
-    height: 300px;
-    background-color: #7092BE;
-    overflow: hidden;
-}
-
-/* Main area end here */
-
-
-.footer-1 {
-    height: 70px;
-    width: 40%;
-    background-color: #00A2E8;
-    float: left;
-}
-
-
-.footer-2 {
-    height: 70px;
-    width: 30%;
-    background-color: #B5E61D;
-    overflow: hidden;
-    float: left;
-}
-
-
-.footer-3 {
-    height: 70px;
-    width: 30%;
-    background-color: #A349A4;
-    overflow: hidden;
-}
-
-
-
