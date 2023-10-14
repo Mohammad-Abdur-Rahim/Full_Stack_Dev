@@ -1,5 +1,5 @@
 .header_Top{
-    background-color: rgb(225, 224, 224);
+    background-color: rgb(212, 50, 50);
 }
 .menu{
     margin-top: 10px;
@@ -10,7 +10,7 @@
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .ACT{
-    color: rgb(255, 7, 7) !important;
+    color: rgb(100, 247, 95) !important;
 }
 .logo img {
     height: 80px;
@@ -18,14 +18,13 @@
 }
 /* Header part end  */
 
-.header_bottom{
-    background-image:url(/img/bg.jpg);
-    background-size:cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-}
-.header_bottom{
-    padding: 100px 0;
+
+#testtt{
+    background-image: url("../images.jpeg");
+    
+ 
+    
+    
 }
 .bt{
     font-size: 20px;
