@@ -8,46 +8,29 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <a href="#" target="_blank">Bangladesh</a>
-    <a href="#" target="_blank">Dhaka</a>
-    <a href="#" target="_blank">Uttara</a>
-    <img src="img/logo.png" alt="img">
-    <video src="" controls></video>
-
-    <hr>
-
-<table>
-    <thead>
-        <tr>
-            <th>Subject</th>
-        <th>marks</th>
-        <th>Cgpa</th>
-        </tr>
-    </thead>
-    <tbody>
-<tr>
-    <td>Bangla</td>
-    <td>72</td>
-    <td>3.39</td>
-</tr>
-<tr>
-    <td>English</td>
-    <td>66</td>
-    <td>3.30</td>
-</tr>
-<tr>
-    <td>ICT</td>
-    <td>86</td>
-    <td>3.60</td>
-</tr>
-    </tbody>
-    <tfoot>
-        <tr>
-            <th colspan="4">Student:Pass</th>
-    
-        </tr>
-    </tfoot>
-</table>
+    <form action="" aria-required="">
+        <h1>Payment Method</h1>
+        <h2>Contact Information</h2>
+        <p>Name: <input type="text" name="Name" id="" required></p>
+        <fieldset>
+            <legend>Gender</legend>
+        
+        <p>Male <input type="radio" name="Gender" id="Male">Female <input type="radio" name="Gender" id="Female"></p>
+        </fieldset><p>Address: <textarea name="Address" id="Address" cols="100" rows="6"> </textarea></p>
+        <p id="email">Email: <input type="email" name="Email" id="email"></p>
+        <p>Pincod: <input type="number" name="number" id="number"></p>
+        <h2>Payment Information</h2>
+        <p>card-Type: <select name="card-Type" id="card-Type">
+            <option value="">--Select Card type--</option>
+            <option value="Visa">Visa</option>
+            <option value="mastercard">mastercard</option>
+            <option value="Rupey">Rupey</option>
+        </select></p>
+        <p>Card-Number <input type="number" name="number" id="number"></p>
+        <p>Expire : <input type="date" name="date" id="date"></p>
+        <p>CVV <input type="password" name="CVV" id="Cvv"></p>
+        <input type="submit" value="Payment">
+            </form>
     
 </body>
 </html>
