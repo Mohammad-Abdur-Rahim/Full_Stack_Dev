@@ -3,28 +3,24 @@ body{
     padding: 0;
   
 }
-h1,h2,h3,h4{
-    text-align: center;
+p,a{                /*Attributes selector selector  */
+    color: green;
 }
-header{
-    background-color: #458D9E;
+li {
+    list-style-type: square;
 }
-nav{
-    background-color: black;
-    padding: 10px;
-   
+.item{
+    color: rgb(0, 61, 146);
+    font-weight: bold;
 }
-nav a{
-    color: white;
-    padding: 10px;
+p:hover{
+    color: brown;
+}
+a:hover{                /*pseudo class selector  */
+    font-size: 20px;
     text-decoration: none;
+    color: crimson;
 }
-h2{
-    text-align: center;
-}
-.im{
-    text-align: center;
-}
-.a{
-    text-align: center;
+ li[class]{             /*class selector  */
+    font-size: 30px;
 }
