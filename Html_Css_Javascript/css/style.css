@@ -1,2 +1,30 @@
-
- 
+body{
+    margin: 0;
+    padding: 0;
+  
+}
+h1,h2,h3,h4{
+    text-align: center;
+}
+header{
+    background-color: #458D9E;
+}
+nav{
+    background-color: black;
+    padding: 10px;
+   
+}
+nav a{
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+h2{
+    text-align: center;
+}
+.im{
+    text-align: center;
+}
+.a{
+    text-align: center;
+}
