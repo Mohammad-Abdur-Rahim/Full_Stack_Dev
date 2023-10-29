@@ -3,8 +3,42 @@ body{
     padding: 0px;
 }
 /* Box Model in CSS  */
-.ww{  
+nav{
+    background-color: black;
+    overflow: hidden;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
     padding: 20px;
-    border: solid 8px black;
-    margin: 20px;
+    float: left;
+}
+nav a:hover{
+    color:tomato ;
+}
+/* 1st part in Style end */
+
+/* 2nd part in Style end */
+ul li{
+    list-style-type: upper-alpha;
+    list-style-position: outside;   
+    background-color: rgb(167, 219, 219);
+}
+table,tr,td,th{
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: center;
+    margin: auto;
+    width: 500px;
+    height: 40px;
+}
+th{
+    background-color: coral;
+    font-weight: bolder;
+}
+td{
+    background-color: cornflowerblue;
+    color: white;
 }
