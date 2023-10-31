@@ -1,0 +1,29 @@
+.box-set{
+    background: #a78d8d;
+    border-radius: 6px;
+}
+.box{
+    position: relative;
+    /* position: absolute fixed; */
+    border-radius: 6px;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    background-color: chartreuse;
+    margin: 20px;
+}
+.box-1{
+    top: 40px;
+}
+.box-2{
+    bottom: 10px;
+}
+.box-3{
+    left: 200px;
+}
+.box-4{
+    right: 10px;
+}
+
+
+
