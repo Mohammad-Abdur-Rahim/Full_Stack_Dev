@@ -1,29 +1,56 @@
-.box-set{
-    background: #a78d8d;
-    border-radius: 6px;
-}
+/* 1st part Float code start */
 .box{
-    position: relative;
-    /* position: absolute fixed; */
-    border-radius: 6px;
-    width: 100px;
+    background-color: brown;
+    width: 95%;
+    height: 140px;
+    margin: 40px;
+    color: white;
+}
+img{
+    width: 5%;
+    height: 70px;  
+}
+.m1{
+    float: left;
+}
+.p1{
+    overflow: hidden; 
+}
+.p2{
+    width: 95%;
+    float: left;
+}
+.m2{
+    overflow: hidden;
+}
+.m3{
+    float: left;
+}
+.p3{
+    overflow: hidden; 
+}
+.p4{
+    width: 95%;
+    float: left;
+}
+.m4{
+    overflow: hidden;
+   
+}
+/* 1st part Float code end */
+/* 2nd part here position code start  */
+.main-box{
     height: 100px;
-    text-align: center;
-    background-color: chartreuse;
-    margin: 20px;
+    width: 400px;
+    background-color: chocolate;
+    position: relative;
 }
-.box-1{
-    top: 40px;
+.box22{
+    height: 30px;
+    width: 30px;
+    background-color: rgb(107, 250, 31);
+    position: absolute;
+    right: 20;
+    bottom: 0;
 }
-.box-2{
-    bottom: 10px;
-}
-.box-3{
-    left: 200px;
-}
-.box-4{
-    right: 10px;
-}
-
-
-
+/* 2nd part here position code end  */
