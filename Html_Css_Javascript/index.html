@@ -5,11 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>list style</title>
     <link rel="stylesheet" href="css/style.css">
+
+<style>
+div{
+    width: 160px;
+    height: 80px;
+    padding: 20px;
+    border: 8px solid red;
+    background: yellow;
+}
+.box1{
+     box-sizing: content-box; 
+   
+}
+.box2{
+
+   box-sizing: border-box;
+}
+</style>
 </head>
 <body> 
-    <h5>Thank you</h5>
-<p>Create Only one Contact Page</p>
+    <!-- 160+(2*20)+(2*8)=216px
+    80+(2*20)+(2*8)=136px -->
+    <div class="box1">
+        <p>Content Box Model
+        </p>
+<br>
+    </div>    <div class="box2">
+        <p>Border Box 
+        </p>
+    </div>
+    <!-- 160-(2*20)-(2*8)=104px
+    80-(2*20)-(2*8)=24px -->
 
+<!-- 1=Inspect overview
+2=clip path maker css img
+3=box box-sizing 
+4=z-index -->
 
 </body>
 </html>
