@@ -1,16 +1,13 @@
-.container{
-    display: grid;
-    /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr ; */
-    /* grid-template-columns: repeat(5,1fr); */
-    grid-template-columns: repeat(auto-fill,minmax(200px,1fr));
-    grid-gap: 10px;
-    grid-auto-columns: minmax(50px,auto);
-    grid-auto-rows: minmax(100px,auto);
-
+.box{
+    margin: auto;
+    height: 100px;
+    width: 100px;
+    background: red;
+     transition:width 2s, height 3s, border-radius 5s;
 }
-.item{
-    background-color: bisque;
-    border: 2px solid black;
-    border-radius: 3px;
-
+.box:hover{
+width: 200px;
+height: 200px;
+border-radius: 50%;
+background-color: green;
 }
