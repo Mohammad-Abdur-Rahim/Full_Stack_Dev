@@ -1,13 +1,11 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
 .box{
-    margin: auto;
     height: 100px;
     width: 100px;
-    background: red;
-     transition:width 2s, height 3s, border-radius 5s;
-}
-.box:hover{
-width: 200px;
-height: 200px;
-border-radius: 50%;
-background-color: green;
+    background-color:darkgreen ;
 }
