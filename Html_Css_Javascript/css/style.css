@@ -1,26 +1,104 @@
- *{
-    box-sizing: border-box;
-}
-body{
+body {
     margin: 0;
 }
-.main-box{
-    height: 400px;
-    width: 80%;
-    background-color:darkgreen ;
-    position: relative;  /* main_box */
-  
+
+.header-area {
+    height: 80px;
+
 }
-.box{
-    height: 100px;
-    width: 10%;
-    background-color:rgb(232, 30, 30) ;
-    position: absolute;   /* Child_Box */
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-    border-radius: 50%;
-   
+
+.logo-area {
+    width: 45%;
+    height: 80px;
+    background-color: #A349A4;
+    float: left;
+}
+
+.menu-area {
+    height: 80px;
+    background-color: #00A2E8;
+    width: 55%;
+    overflow: hidden;
+}
+
+/* Header area end here */
+
+.main-area {
+    height: 500px;
+    border: 1px solid #000;
+    background-color: #C8BFE7;
+}
+
+.left-sidebar {
+    height: 500px;
+    width: 30%;
+    background-color: #B5E61D;
+    float: left;
+}
+
+.main-content {
+    height: 500px;
+    width: 70%;
+    overflow: hidden;
+}
+
+.main-content-left {
+    height: 350px;
+    width: 30%;
+    background-color: #7092BE;
+    float: left;
+}
+
+.main-content-right {
+    width: 70%;
+    height: 500px;
+    background-color: #FF7F27;
+    overflow: hidden;
+}
+
+.main-box {
+    margin-top: 100px;
+
+}
+
+.box1 {
+    width: 35%;
+    height: 300px;
+    background-color: #C8BFE7;
+    float: left;
+    margin: 0 10%;
+}
+
+.box2 {
+    width: 35%;
+    height: 300px;
+    background-color: #7092BE;
+    overflow: hidden;
+}
+
+/* Main area end here */
+
+
+.footer-1 {
+    height: 70px;
+    width: 40%;
+    background-color: #00A2E8;
+    float: left;
+}
+
+
+.footer-2 {
+    height: 70px;
+    width: 30%;
+    background-color: #B5E61D;
+    overflow: hidden;
+    float: left;
+}
+
+
+.footer-3 {
+    height: 70px;
+    width: 30%;
+    background-color: #A349A4;
+    overflow: hidden;
 }
