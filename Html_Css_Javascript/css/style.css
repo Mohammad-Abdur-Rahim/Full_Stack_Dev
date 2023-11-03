@@ -16,7 +16,11 @@ body{
     width: 10%;
     background-color:rgb(232, 30, 30) ;
     position: absolute;   /* Child_Box */
+    top: 0;
     bottom: 0;
+    left: 0;
     right: 0;
+    margin: auto;
+    border-radius: 50%;
    
 }
