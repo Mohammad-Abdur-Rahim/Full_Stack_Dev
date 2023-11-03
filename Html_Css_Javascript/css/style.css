@@ -1,37 +1,72 @@
-body{
+body {
     margin: 0;
-}
-ul{
-    background-color: chocolate;
-    text-align: center;
-    margin: 0;
-  
-}
-ul li{
-    list-style: none;
-    display: inline-block;   /* left a rakare jonno display inline  block korse */
-    
-    
-    
-}
-ul li a{
-    text-decoration: none;
-    color: white;
-    font-size: 20px;
-    padding: 20px;
-    display: block; /* display block na korlae padding nai nah tai display block*/
-    transition: 2s; /* Hover time smothness*/
-    border-bottom: 5px solid transparent;  /* Menu Border*/
-    
-}
-ul li:hover a{
-    background-color: black;
-    color: white;
-    border-bottom: 5px solid rgb(4, 251, 53);/* Menu Border*/
 }
 
-#active{
-    background-color: black;  /* Menu Active*/
-    color: white;
+
+/* Main Menu */
+
+.menu {
+    background-color: #e74c3c;
+    font-family: arial;
+}
+
+ul {
+    margin: 0;
+    padding: 0; 
+    text-align: center;  
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+    position: relative;
+}
+
+ul li a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 15px 20px;
+    display: block;
+    font-size: 18px;
+    transition: 0.5s;
+    
+}
+
+ul li:hover a {
+    background-color: #000;
+    color: #fff;
    
+}
+
+#active {
+    background-color: #000;
+    color: #fff;
+}
+
+/* 
+Submenu Design */
+
+ul ul li {
+    display: block;
+    width: 200px;
+}
+
+ul ul {
+    background-color: goldenrod;
+    position: absolute;
+    top: 100%;
+    display: none;
+}
+
+ul li:hover > ul {
+    display: block;
+}
+
+/* Third Menu Design */
+
+ul ul ul {
+    position: absolte;
+    left: 100%;
+    top: 0;
 }
