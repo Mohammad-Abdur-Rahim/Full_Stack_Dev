@@ -1,29 +1,22 @@
-/* *{
+ *{
     box-sizing: border-box;
-} */
+}
 body{
     margin: 0;
 }
-.box1{
-    height: 100px;
-    width: 30%;
+.main-box{
+    height: 400px;
+    width: 80%;
     background-color:darkgreen ;
-    float: left;
-}
-.box2{
-    height: 100px;
-    width: 20%;
-    background-color:rgb(232, 30, 30) ;
-    float: left;
+    position: relative;  /* main_box */
   
 }
-.box3{
+.box{
     height: 100px;
-    width: 30%;
-    background-color:darkgreen ;
-    float: left;
-}
-
-.ww{
-    overflow: hidden;
+    width: 10%;
+    background-color:rgb(232, 30, 30) ;
+    position: absolute;   /* Child_Box */
+    bottom: 0;
+    right: 0;
+   
 }
