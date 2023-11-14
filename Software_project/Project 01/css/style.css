@@ -112,7 +112,7 @@ h2 {
 /* ============================================================== * HEADER PART END * ================================================*/
 /* ============================================================== * MAIN SECTION PART START * ================================================*/
 .logolist {
-  padding: 70px 0px 50px 0px;
+  padding: 70px 0px 80px 0px;
   text-align: center;
 }
 
@@ -120,14 +120,68 @@ h2 {
   margin: auto;
   border-bottom: solid 2px red;
   padding: 30px;
-  width: 74%;
+  width: 83%;
 
 
 }
 
+.Our-Services h3 {
+  font-family: Gilroy, -apple-system, BlinkMacSystemFont, Raleway, sans-serif;
+  font-weight: 500;
+  font-size: 45px;
+  line-height: 42px;
 
+}
+.Our-Services p {
+  font-family: Aeonik, -apple-system, BlinkMacSystemFont, Montserrat, sans-serif !important;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 28px;
+  padding-right: 58px;
+  padding-bottom: 30px;
+  /* text-align: justify; */
 
+}
+.service-img-box {
+  padding-top: 90px;
+  padding-bottom: 30px;
 
+}
+.HR2 {
+  margin: auto;
+  border-bottom: solid 2px red;
+  padding-bottom: 90px;
+  width: 100%;
+  margin-bottom: 80px;
+}
+
+.feature-project h3 {
+  font-family: Gilroy, -apple-system, BlinkMacSystemFont, Raleway, sans-serif;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 42px;
+
+}
+.feature-project{
+  margin: auto;
+}
+.feature-img p{
+  font-family: Aeonik, -apple-system, BlinkMacSystemFont, Montserrat, sans-serif !important;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 28px;
+  padding-right: 58px;
+  padding-bottom: 30px;
+}
+.feature-img img{
+  transition: 1s;
+  overflow: hidden;
+}
+.feature-img :hover  {
+  transform: scale(1.1); 
+  cursor: pointer;
+  
+}
 
 
 
