@@ -182,6 +182,65 @@ h2 {
   cursor: pointer;
   
 }
+.varea{
+padding: 100px 0px 100px 0px;
+
+}
+.vtext p{
+  font-family: Aeonik,-apple-system,BlinkMacSystemFont,Montserrat,sans-serif!important;
+  font-weight: 400;
+  font-size: 25px;
+  
+}
+.HR3 {
+  border-bottom: solid 2px white;
+  padding-top: 120px;
+  width: 80%;
+
+}
+.vicon{
+  height: 420px;
+  width: 580px;
+  background: url(../img/vvv.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+.company{
+  padding: 100px 0px 100px 0px;
+}
+
+.company h3{
+  font-family: Gilroy, -apple-system, BlinkMacSystemFont, Raleway, sans-serif;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 60px;
+
+}
+.company p{
+  font-family: Aeonik, -apple-system, BlinkMacSystemFont, Montserrat, sans-serif !important;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 38px;
+
+}
+.com1 img{
+  height: 400xp;
+  width: 520px;
+}
+.HR4 {
+  border-bottom: solid 2px rgb(0, 0, 0);
+  width: 100%;
+
+}
+.kkk{
+  margin-top: 60px;
+}
+.HR5 {
+  border-bottom: solid 2px rgb(0, 0, 0);
+  width: 100%;
+
+}
 
 
 
