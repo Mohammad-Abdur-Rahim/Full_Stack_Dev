@@ -568,7 +568,7 @@ text-align: center;
   line-height: 1.60;
   
 }
-/* About page css is here  */
+/* About page css is her=========================================================  */
 
 .btop {
   background-color: #000000;
@@ -628,4 +628,17 @@ font-weight: bolder;
   transform: scale(1.1);
   cursor: pointer;
   
+}
+/* CONATCT page css is her=========================================================  */
+.conatcat h2{
+  color: #050505;
+  font-size: 20px;
+  text-align: center;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.conatcat{
+  padding: 50px 0px 50px 0px;
+}
+.conatcat h2  {
+  padding-bottom: 20px;
 }
