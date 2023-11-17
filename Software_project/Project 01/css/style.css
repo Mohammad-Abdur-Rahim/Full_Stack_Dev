@@ -568,3 +568,64 @@ text-align: center;
   line-height: 1.60;
   
 }
+/* About page css is here  */
+
+.btop {
+  background-color: #000000;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+.btop h1 {
+  color: #ffffff;
+  font-size: 65px;
+  line-height: 85px;
+}
+.btop h1 span {
+  text-decoration: underline #F47521;
+
+
+}
+.blogtop p {
+  font-size: 18px;
+  font-family: Aeonik, -apple-system, BlinkMacSystemFont, Montserrat, sans-serif !important;
+  font-weight: 400;
+  padding-top: 60px;
+  color: #ffffff;
+
+}
+.bgg{
+  background-color: #1f9f0b;
+  padding:20px 0px 20px 115px
+}
+.b2{
+  padding-bottom: 30px;
+  padding-top: 40px;
+}
+.searc input{
+font-weight: bolder;
+}
+.bpage a{
+  font-size: 45px;
+  line-height: 60px;
+  color: black;
+  font-weight: 500;
+}
+.bpage p{
+  font-size: 18px;
+  font-family: Aeonik, -apple-system, BlinkMacSystemFont, Montserrat, sans-serif !important;
+  font-weight: 400;
+  padding-top: 20px;
+  color: black;
+}
+
+.bimg img {
+  transition: 1s;
+
+}
+
+.bimg :hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  
+}
