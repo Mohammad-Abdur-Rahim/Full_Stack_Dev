@@ -7,7 +7,8 @@ a {
 
 /* =============================================================== * HEADER PART START * ================================================*/
 .Main_Header {
-  background: url(../img/aa.jpg);
+  /* background: url(../img/aa.jpg); */
+  background-color: #e9e2e1;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -19,56 +20,65 @@ a {
 .Header_Top {
   padding: 20px 20px 0px 30px;
 }
-
-.Header_Bootom {
-  padding: 100px 0px 290px 20px;
+.btmargin{
+  margin-top: 100px;
+  padding-left: 50px;
 }
 
-.text h1,
-h2 {
-  color: #ffffff;
+.Header_Bootom span {
+    color:#fd6e0a;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.3;
+    font-family: "Poppins", sans-serif;
+    margin-top: 100px;
+  /* padding: 100px 0px 290px 20px; */
+}
+.Header_Bootom h1{
+  color: #15295F;
+  font-size: 75px;
+  font-weight: 700;
+  line-height: 1.5;
+  margin: 10px 0;
+  margin-top: -20px;
+  font-family: "Poppins", sans-serif;
+}
+.Header_Bootom h3{
+    color: #15295F;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 1.2;
+    text-transform: capitalize;
+    font-family: "Poppins", sans-serif;
+}
+.Header_Bootom p{
+  margin: 20px 0 50px;
+  color: #6f6b80;
+  font-size: 16px;
+  line-height: 1.8;
+  font-family: "Poppins", sans-serif;
+}
+.headbtn1 .btn1{
   font-size: 20px;
-  font-family: Gilroy, Raleway, sans-serif;
-  font-weight: 600;
-  line-height: 1;
-}
+  padding: 10px 30px;
+  border-radius: 50px;
 
-.text h2 {
-  font-size: 55px;
-  line-height: 66px;
+ 
 }
-
-.text button {
-  border: 1px solid white;
-  color: white;
-  background-color: blue;
-  padding: 10px 50px 5px 40px;
-  margin-left: 20px;
-  font-weight: 500;
+.headbtn1 .btn2{
   font-size: 20px;
-  font-family: 'Gill Sans', 'Gill Sans MT';
-  transition-duration: 1s;
-  cursor: pointer;
-  position: relative;
+  padding: 10px 30px;
+  border-radius: 50px;
+  margin-left: 30px;
+ 
 }
 
-.text i {
-  position: absolute;
-  padding-left: 15px;
-  padding-top: 7px;
-}
-
-.text .button:hover {
-  background-color: #ffffff;
-  color: rgb(4, 4, 4);
-  transform: scale(1.2);
-}
 
 /*------------------------------------------------------------ * BOOTSTRAP MENU CSS CODE START * ------------------------------------------ */
 .navbar .navbar-nav .nav-link {
   font-size: 23px;
   font-weight: 700;
-  color: #fff;
+  color: #15295F;
   font-family: Gilroy;
   margin-right: 20px;
   border-bottom: 3px solid transparent;
@@ -111,7 +121,40 @@ h2 {
 /*---------------------------------------------------------- * BOOTSTRAP MENU CSS CODE END * ------------------------------------------ */
 /* ============================================================== * HEADER PART END * ================================================*/
 /* ============================================================== * MAIN SECTION PART START * ================================================*/
+.imgbox{
+  background-color: #e9e2e1;
+  padding-bottom: 40px;
+  padding-top: 10px;
+}
+.imgboxbg{
+  background-color:#ffffff;
+  border-radius: 60px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.box1{
+border-right: 1px solid black;
+margin-right: 20px;
 
+}
+.img1{
+background-color: #FFC107;
+border-radius: 50%;
+}
+.content1 h3{
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.3;
+  color: #15295F;
+  margin-bottom: 8px;
+  font-family: "Poppins", sans-serif;
+}
+.content1 p{
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: 400;
+  color: #FD6E0A;
+}
 
 
 
@@ -130,11 +173,6 @@ h2 {
   color: #ffffff;
 }
 
-.First_part p {
-  font-size: 35px;
-  font-weight: 500;
-  color: #ffffff;
-}
 
 .sone>h5,
 .stwo>h5,
