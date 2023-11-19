@@ -212,8 +212,65 @@ padding: 30px 0px 30px 0px;
 
 
 
+.portfolio{
+
+}
+
+  .porttittle span{
+    letter-spacing: 1px;
+      display: block;
+      line-height: 14px;
+      color: #f9004d;
+      font-weight: 500;
+      font-size: 14px;
+      text-transform: uppercase;
+  }
+  .porttittle h2{
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: rebeccapurple;
+    margin-top: 15px;
+    margin-bottom: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"
+  }
 
 
+
+
+  .clienttext{
+
+  }
+  .clienttext h2{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 1.5;
+    text-transform: capitalize;
+    color: #15295f;
+    text-align: left;
+    font-family: "Poppins", sans-serif;
+  }
+  .ctext{
+    padding-top: 30px;
+  }
+  .ctext p{
+    padding: 15px 0 40px;
+    font-size: 16px;
+    line-height: 1.8;
+    color: #6f6b80;
+    cursor: grab;
+    font-family: "Poppins", sans-serif;
+  }
+  .ctext h3{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 31px;
+    color: #15295f;
+    font-family: "Poppins", sans-serif;
+  }
+  .ctext span{
+    font-weight: bold;
+  }
 /* ============================================================== * MAIN SECTION PART END * ================================================*/
 /* ============================================================== * FOOTER PART START * ================================================*/
 .main-footer {
